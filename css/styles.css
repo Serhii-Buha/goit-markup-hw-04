@@ -15,7 +15,7 @@
 
 body {
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -98,7 +98,7 @@ img {
 /* Header */
 
 .header {
-  width: 1600px;
+  /* width: 1600px; */
   border-bottom: 1px solid #ececec;
   margin-left: auto;
   margin-right: auto;
@@ -111,7 +111,7 @@ img {
 
 /* стиль лого WebStudio */
 .logo {
-  font-family: 'Raleway', cursive;
+  font-family: "Raleway", cursive;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -242,7 +242,7 @@ img {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url('../images/hero-img.jpg');
+    url("../images/hero-img.jpg");
 }
 
 .hero-title {
@@ -282,7 +282,7 @@ img {
 }
 
 .features {
-  width: 1600px;
+  /* width: 1600px; */
   padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
@@ -299,7 +299,7 @@ img {
 
 .features-title .item::before {
   display: block;
-  content: '';
+  content: "";
   /* width: 270px; */
   height: 120px;
   /* outline: 1px solid red; */
@@ -351,7 +351,7 @@ img {
 }
 
 .about {
-  width: 1600px;
+  /* width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -380,7 +380,7 @@ img {
 }
 
 .team {
-  width: 1600px;
+  /* width: 1600px; */
   background: #f5f4fa;
   margin-left: auto;
   margin-right: auto;
@@ -560,7 +560,7 @@ img {
 
 /* Footer */
 .footer {
-  width: 1600px;
+  /* width: 1600px; */
   background: var(--primary-bg-color);
 
   padding-top: 60px;
@@ -640,7 +640,7 @@ img {
 
 .secondline .title {
   display: flex;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -677,13 +677,12 @@ img {
   fill: #ffffff;
 }
 
-
 /* Portfolio */
 
 /* Main */
 
 .main-portfolio {
-  width: 1600px;
+  /* width: 1600px; */
   padding-top: 94px;
 }
 
