@@ -443,7 +443,7 @@ img {
 .social-icons {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .social-icons .item-icon {
@@ -734,12 +734,12 @@ img {
 .project-portfolio {
 }
 
-.list-project {
+/* .list-project {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-}
+} */
 
 .flex-container {
   display: flex;
@@ -755,10 +755,25 @@ img {
   border: 1px solid #eeeeee;
 }
 
-.flex-element:hover {
+.link-portfolio {
+  display: block;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+.link-portfolio:hover,
+.link-portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
+/* .flex-element:hover,
+.flex-element:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
 
 .header-project {
   font-weight: 700;
