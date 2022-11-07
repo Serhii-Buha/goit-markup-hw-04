@@ -223,7 +223,7 @@ img {
   padding-bottom: 280px;
   padding-left: 452px;
   padding-right: 452px;
-  text-align: center;
+  
 
   /* background: var(--primary-bg-color); */
 }
@@ -430,7 +430,7 @@ img {
 }
 
 .team-text {
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .social-icons {
